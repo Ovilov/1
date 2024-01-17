@@ -1,0 +1,67 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: cursive;
+}
+.city {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sity a {
+    color:inherit;
+}
+.menu {
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url("../images/jpg/bc-travel.jpg")
+}
+.menu h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 25px;
+}
+.city h2 {
+    font-size: 25px;
+}
+.bg-rome {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/jpg/bc-rome.jpg")
+}
+.bg-paris {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/jpg/bc-paris.jpg")
+}
+.bg-london {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/jpg/bc-london.jpg")
+}
+.bg-samarqand {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/jpg/bc-samarqand.jpg")
+}
+.bg-newyork {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/jpg/bc-new-york.jpg")
+}
